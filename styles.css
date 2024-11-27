@@ -1,0 +1,79 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#home {
+    background: url('osaka.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cta-button {
+    background: #98FB98;
+    color: #333;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2em 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#about .profile {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
